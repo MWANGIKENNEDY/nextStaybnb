@@ -97,7 +97,7 @@ const HousePage = () => {
             <span>1 Bath</span>
           </span>
 
-          <span className="  lg:text-end font-extrabold text-lg lg:text-2xl dark:text-white">
+          <span className="lg:text-end font-extrabold text-lg lg:text-2xl dark:text-white">
             $100 / Day
           </span>
         </div>
@@ -125,7 +125,7 @@ const HousePage = () => {
           <div className=" flex-1">
             <span className="block">Enhanced Clean</span>
             <span className=" block text-gray-400 text-sm">
-              This host has adhered to Staybnb's cleaning guideline.
+              {"This host has adhered to Staybnb's cleaning guideline."}
             </span>
           </div>
         </li>
@@ -176,7 +176,7 @@ const HousePage = () => {
           </span>
 
           <span className=" text-sm text-gray-500">
-            It's like a home, away from home.
+            {"It's like a home, away from home."}
           </span>
         </div>
       </div>
